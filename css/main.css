@@ -52,9 +52,6 @@ hr {
   align-content: center;
   justify-content: center;
   
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-template-rows: 100px 100px 100px;
-  
   margin-left: 5em;
   margin-right: 5em;
   line-height: 1.4;
