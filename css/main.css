@@ -41,7 +41,7 @@ hr {
 }
 
 .container {
-  display: grid;
+  display: inline-grid;
   grid-gap: .5em;
   margin: auto;
   display: flex;
