@@ -249,6 +249,43 @@ hr {
   grid-area: box12;; 
 }
 
+img {
+  display: block;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding-left: 250px;
+  padding-right: 100px;
+  align-content: center;
+  justify-content: center;
+  max-width: 900px;
+  margin-bottom: 5px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  align-content: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+}
+
+.one {
+  font-size: 15px;
+  font-family: 'Cambay';
+  rgb(255, 238, 230);
+  line-height: 1.5;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .hide-show {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -258,7 +295,7 @@ hr {
   padding: 0;
   position: absolute;
   white-space: nowrap;
-  width: 1px;
+  width: 1px
 }
 
 .hide-show:target {
@@ -270,3 +307,5 @@ hr {
   white-space: inherit;
   width: auto;
 }
+
+
