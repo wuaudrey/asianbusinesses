@@ -108,11 +108,6 @@ hr {
   margin-left: 5em;
   margin-right: 5em;
   line-height: 1.4;
-  
-  grid-template-areas:
-    "box1 box2 box3 box4"
-    "box5 box6 box7 box8"
-    "box9 box10 box11 box12";
 }
   
   @media only screen and (max-width:550px)
