@@ -1,43 +1,94 @@
 html {
   font: 100%/1.15 'Cambay';
   scroll-behavior: smooth;
+  padding-top: 20px;
+  padding-bottom: 10px;
   box-sizing: border-box;
 }
 
+.description {
+  color: red;
+}
+
+ul {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
 body {
-  background-color: black;
+  background-color: rgb(255, 174, 144);
+  background-image: url(https://ak.picdn.net/shutterstock/videos/31137130/thumb/4.jpg), linear-gradient(#ff0, #ffc);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-attachment: fixed;
+  background-size: 150rem, 100%;
 }
 
 h1 {
-  font-family: 'Acme';font-size: 32px;
+  font-family: 'Acme';font-size: 50px;
   text-transform: uppercase;
+  text-align: center;
+  color: rgb(255, 74, 7);
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: 'Cambay';font-size: 10px;
+  text-transform: lowercase;
   text-align: center;
   color: white;
 }
 
 h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Cambay';
+  color: white;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'Cambay';
+  color: white;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Cambay';font-size: 20px;
+  text-transform: uppercase;
+  text-align: right;
+  color: color: rgb(255, 74, 7);
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Cambay';
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
   font-size: 15px;
   text-transform: uppercase;
   font-family: 'Cambay';
   color: white;
 }
 
-p {
-  font-size: 10px;
-  font-family: Cambay;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-}
-
 hr {
-   width: 30%;
-     margin: auto;
-     margin-top: 5%;
-     margin-bottom: 5%;
-     border: 1px solid white
+    width: 55%;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     border: 1px solid white;
 }
 
 .container {
