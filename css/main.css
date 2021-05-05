@@ -1,0 +1,233 @@
+html {
+  font: 100%/1.15 'Cambay';
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Acme';font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Cambay';
+  color: white;
+}
+
+p {
+  font-size: 10px;
+  font-family: Cambay;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+   width: 30%;
+     margin: auto;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     border: 1px solid white
+}
+
+.container {
+  display: inline-grid;
+  grid-gap: .5em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  
+  align-content: center;
+  justify-content: center;
+  
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 100px 100px 100px;
+  
+  margin-left: 5em;
+  margin-right: 5em;
+  line-height: 1.4;
+  
+  grid-template-areas:
+    "box1 box2 box3 box4"
+    "box5 box6 box7 box8"
+    "box9 box10 box11 box12";
+}
+
+@media only screen and (max-width:550px)
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr; 
+    grid-template-areas:
+    "box1"
+    "box2"
+    "box3"
+    "box4"
+    "box5"
+    "box6"
+    "box7"
+    "box8"
+    "box9"
+    "box10"
+    "box11"
+    "box12";
+}
+
+.box1 {
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box1;
+}
+
+.box2 {
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+   grid-area: box2;   
+}
+
+.box3 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box3;   
+}
+
+.box4 {
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box4;  
+}
+
+.box5 {
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box5;
+}
+
+.box6 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box6;  
+}
+.box7 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 2000px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box7; 
+}
+  
+.box8 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box8;
+}
+
+.box9 {
+  text-align: center;
+  border: 1px solid white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box9;  
+}
+
+.box10 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box10;  
+}
+
+.box11 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box11;
+}
+
+.box12 {
+  text-align: center;
+  border: 1px solid white;
+  max-width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-area: box12;; 
+}
+
+.hide-show {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.hide-show:target {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
