@@ -94,7 +94,6 @@ hr {
 .container {
   display: inline-grid;
   grid-gap: .5em;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: start;
