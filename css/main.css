@@ -298,7 +298,6 @@ img {
   margin: 0 auto;
   height: auto;
   width: 100%;
-  border: 1.5px solid white;
 } 
 
 /* Create three equal columns that sits next to each other */
@@ -311,7 +310,6 @@ img {
   height: 350px;
   height: auto;
   width: 100%;
-  border: 1.5px solid white;
 }
 
 .one {
