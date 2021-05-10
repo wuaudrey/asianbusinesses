@@ -117,9 +117,12 @@ hr {
   grid-template-columns: 250px 250px 250px 250px;
   grid-template-rows: 100px 100px 100px;
   line-height: .3;
+  
+  grid-auto-flow: column;
 }
 
 .box1 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -133,6 +136,7 @@ hr {
 }
 
 .box2 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -146,6 +150,7 @@ hr {
 }
 
 .box3 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -159,6 +164,7 @@ hr {
 }
 
 .box4 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -172,6 +178,7 @@ hr {
 }
 
 .box5 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -185,6 +192,7 @@ hr {
 }
 
 .box6 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -198,6 +206,7 @@ hr {
 }
 
 .box7 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -211,6 +220,7 @@ hr {
 }
   
 .box8 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -224,6 +234,7 @@ hr {
 }
 
 .box9 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -237,6 +248,7 @@ hr {
 }
 
 .box10 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -250,6 +262,7 @@ hr {
 }
 
 .box11 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -263,6 +276,7 @@ hr {
 }
 
 .box12 {
+  display: flex;
   text-align: center;
   border: 1.5px solid white;
   padding-top: 1rem;
@@ -273,13 +287,6 @@ hr {
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4; 
-}
-
-.box13 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 7;
 }
 
 img {
