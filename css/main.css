@@ -119,9 +119,10 @@ hr {
   line-height: .3;
   
   grid-template-areas: 
-    "one two three four"
-    "five six seven eight"
-    "nine ten eleven twelve";
+    "one two three"
+    "four five six"
+    "seven eight nine"
+    "ten eleven twelve";
 }
 
 .box1 {
