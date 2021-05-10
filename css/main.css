@@ -6,10 +6,6 @@ html {
   box-sizing: border-box;
 }
 
-.description {
-  color: red;
-}
-
 ul {
   width: 300px;
   display: inline-block;
@@ -18,8 +14,11 @@ ul {
 }
 
 body {
+  padding: 0 5%;
+  margin: 0 auto;
+  max-width: 1400px;
   background-color: rgb(255, 174, 144);
-  background-image: url(https://ak.picdn.net/shutterstock/videos/31137130/thumb/4.jpg), linear-gradient(#ff0, #ffc);
+  background-image: url(https://www.xmple.com/wallpaper/linear-gradient-pink-orange-1920x1080-c2-c71585-ff8c00-a-60-f-14.svg), linear-gradient(#ff0, #ffc);
   background-repeat: no-repeat;
   background-position: center 100%;
   background-attachment: fixed;
@@ -27,10 +26,10 @@ body {
 }
 
 h1 {
-  font-family: 'Acme';font-size: 50px;
+  font-family: 'Acme';font-size: 45px;
   text-transform: uppercase;
   text-align: center;
-  color: rgb(255, 74, 7);
+  color: white;
   padding-bottom: 5px;
 }
 
@@ -57,7 +56,7 @@ h4 {
   text-align: center;
 }
 
-h5 {
+.top {
   font-family: 'Cambay';font-size: 20px;
   text-transform: uppercase;
   text-align: right;
@@ -72,8 +71,11 @@ p {
   color: white;
   line-height: 1.5;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
 }
 
 a {
@@ -95,7 +97,6 @@ hr {
   display: grid;
   grid-gap: .5em;
   display: flex;
-  flex-direction: column;
  
   align-items: center;
   justify-content: center;
@@ -105,9 +106,14 @@ hr {
   grid-template-columns: 250px 250px 250px 250px;
   grid-template-rows: 100px 100px 100px;
   
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.4;
+  
+  grid-template-areas:
+    "1 2 3 4"
+    "5 6 7 8"
+    "9 10 11 12";
 }
 
 .box1 {
