@@ -111,7 +111,7 @@ hr {
   line-height: 1.4;
   
   grid-template-areas:
-    "box1 box2 box3 box4"
+    "nav main box3 box4"
     "box5 box6 box7 box8"
     "box9 box10 box11 box12";
 }
@@ -123,7 +123,7 @@ hr {
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box1;
+  grid-area: nav;
 }
 
 .box2 {
@@ -133,7 +133,7 @@ hr {
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-   grid-area: box2;   
+   grid-area: main;   
 }
 
 .box3 {
