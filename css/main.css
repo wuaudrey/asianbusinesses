@@ -60,9 +60,21 @@ h4 {
   font-family: 'Cambay';font-size: 20px;
   text-transform: uppercase;
   text-align: right;
-  color: color: rgb(255, 74, 7);
+  color: rgb(255, 74, 7);
   padding-top: 5px;
   padding-right: 5px;
+  color: white;
+}
+
+.intro {
+  font-size: 15px;
+  font-family: 'Cambay';
+  color: white;
+  line-height: 1.5;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -95,166 +107,199 @@ hr {
 
 .grid {
   display: grid;
-  grid-gap: .5em;
-  display: flex;
- 
-  align-items: center;
-  justify-content: center;
+  
+  column-gap: .5em;
+  row-gap: .5em;
+  
   align-content: center;
   justify-content: center;
   
   grid-template-columns: 250px 250px 250px 250px;
   grid-template-rows: 100px 100px 100px;
-  
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.4;
-  
-}
-
-@media (min-width: 30em)
-.grid-image {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  line-height: .3;
 }
 
 .box1 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: nav;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .box2 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-   grid-area: main;   
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;   
 }
 
 .box3 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box3;   
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;   
 }
 
 .box4 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box4;  
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;   
 }
 
 .box5 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;   
 }
 
 .box6 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box6;  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;   
 }
+
 .box7 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box7; 
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3; 
 }
   
 .box8 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box8;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;  
 }
 
 .box9 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box9;  
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;  
 }
 
 .box10 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box10;  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;  
 }
 
 .box11 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box11;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4; 
 }
 
 .box12 {
   text-align: center;
-  border: 1px solid white;
+  border: 1.5px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: box12;; 
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4; 
+}
+
+.box13 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 7;
 }
 
 img {
   display: block;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .row {
   display: flex;
-  padding-left: 250px;
-  padding-right: 100px;
   align-content: center;
-  justify-content: center;
-  max-width: 900px;
-  margin-bottom: 5px;
-}
+  justify-content: center; 
+  max-width: 1000px;
+  padding: 0 5%;
+  margin: 0 auto;
+} 
 
 /* Create three equal columns that sits next to each other */
 .column {
-  flex: 33.33%;
+  flex: 33.3%;
   padding: 5px;
   align-content: center;
   justify-content: center;
@@ -264,8 +309,8 @@ img {
 
 .one {
   font-size: 15px;
-  font-family: 'Cambay';
-  rgb(255, 238, 230);
+  font-family: 'Cambay'; 
+  color: white;
   line-height: 1.5;
   text-align: center;
   margin-left: 50px;
