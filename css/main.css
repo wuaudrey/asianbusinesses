@@ -119,7 +119,11 @@ hr {
   line-height: .3;
 }
 
-@media .grid
+@media only screen and (max-width: 550px){
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 100px;
+  }
 
 .box1 {
   text-align: center;
