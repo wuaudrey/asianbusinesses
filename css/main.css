@@ -117,22 +117,27 @@ hr {
   grid-template-rows: 100px 100px 100px;
   line-height: .3;
   
+  width: 100%;
+  height: auto;
+  
   grid-template-areas: 
     "one two three four"
     "five six seven eight"
     "nine ten eleven twelve";
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (max-width: 1000px){
   .grid {
     grid-template-areas: 
       "one two three"
       "four five six"
       "seven eight nine"
       "ten eleven twelve";
+    width: 75%;
+   height: auto;
  }
   
-@media only screen and (min-width: 600px){
+@media only screen and (max-width: 600px){
   .grid {
     grid-template-areas: 
       "one two"
@@ -141,6 +146,8 @@ hr {
       "seven eight"
       "nine ten"
       "eleven twelve";
+    width: 50%;
+   height: auto;
   }
   
 .box1 {
