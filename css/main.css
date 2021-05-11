@@ -118,16 +118,13 @@ hr {
   grid-template-rows: 0.7fr 0.7fr 0.7r;
   line-height: .3;
   
-  width: 100px;
-  height: auto;
-  
   grid-template-areas: 
     "one two three four"
     "five six seven eight"
     "nine ten eleven twelve";
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width: 700px){
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
@@ -138,6 +135,17 @@ hr {
        "seven eight"
        "nine ten"
        "eleven twelve";
+  }
+  
+@media only screen and (max-width: 1000px){
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr;
+     grid-template-areas: 
+       "one two three"
+       "four five six"
+       "seven eight nine"
+       "ten eleven twelve";
   }
  
 .box1 {
