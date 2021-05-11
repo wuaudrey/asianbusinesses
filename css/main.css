@@ -117,6 +117,7 @@ hr {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.7fr 0.7fr 0.7r;
   line-height: .3;
+  margin: auto;
   
   grid-template-areas: 
     "one two three four"
