@@ -147,6 +147,16 @@ hr {
        "seven eight nine"
        "ten eleven twelve";
   }
+  
+@media only screen and (max-width: 3000px){
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 0.7fr 0.7fr;
+     grid-template-areas: 
+       "one two three four"
+       "five six seven eight"
+       "nine ten eleven twelve";
+  }
  
 .box1 {
   text-align: center;
