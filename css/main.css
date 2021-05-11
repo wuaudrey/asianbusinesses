@@ -115,7 +115,7 @@ hr {
   justify-content: center;
   
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.7fr 0.7fr 0.7r;
+  grid-template-rows: 0.7fr 0.7fr 0.7fr;
   line-height: .3;
   margin: auto;
   
@@ -125,19 +125,6 @@ hr {
     "nine ten eleven twelve";
 }
 
-@media (max-width: 700px){
-  .grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
-     grid-template-areas: 
-       "one two"
-       "three four"
-       "five six"
-       "seven eight"
-       "nine ten"
-       "eleven twelve";
-  }
- 
 .box1 {
   text-align: center;
   border: 1.5px solid white;
