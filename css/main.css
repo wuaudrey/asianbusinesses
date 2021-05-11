@@ -118,6 +118,11 @@ hr {
   line-height: .3;
   margin: auto;
   
+  width: 1000px;
+  height: 300px;
+  height: auto;
+  width: 100%;
+  
   grid-template-areas: 
     "one two three four"
     "five six seven eight"
