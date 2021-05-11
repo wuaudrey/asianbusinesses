@@ -124,7 +124,7 @@ hr {
     "nine ten eleven twelve";
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
@@ -137,7 +137,7 @@ hr {
        "eleven twelve";
   }
   
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr;
