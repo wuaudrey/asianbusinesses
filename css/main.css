@@ -113,11 +113,11 @@ hr {
   align-content: center;
   justify-content: center;
   
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 0.7fr 0.7r;
   line-height: .3;
   
-  width: 100%;
+  width: 100px;
   height: auto;
   
   grid-template-areas: 
@@ -125,7 +125,20 @@ hr {
     "five six seven eight"
     "nine ten eleven twelve";
 }
-  
+
+@media only screen and (max-width:550px){
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
+     grid-template-areas: 
+       "one two"
+       "three four"
+       "five six"
+       "seven eight"
+       "nine ten"
+       "eleven twelve";
+  }
+ 
 .box1 {
   text-align: center;
   border: 1.5px solid white;
